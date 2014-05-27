@@ -6,16 +6,8 @@
 
     <fragment
         android:id="@+id/menuFragment"
-        android:layout_width="150dip"
-        android:layout_height="match_parent"
-        class="com.heineck.mydynamicfragmentssample.MenuFragment" >
-    </fragment>
-
-    <fragment
-        android:id="@+id/bodyFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="com.heineck.mydynamicfragmentssample.BodyFragment" >
-    </fragment>
+        class="com.heineck.mydynamicfragmentssample.MenuFragment" />
 
 </LinearLayout>
